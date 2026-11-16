@@ -33280,6 +33280,134 @@
           }
         }
       }
+    },
+    "Shutter Sound Off": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shutter Sound Off"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭快门声"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉快門聲"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關閉快門聲"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "シャッター音オフ"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "셔터음 끄기"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivar el sonido del obturador"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отключение звука затвора"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خاموش کردن صدای شاتر"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tắt âm thanh màn trập"
+          }
+        }
+      }
+    },
+    "Sets only the two region keys to the United States (LL / LL/A), so the camera shutter stays silent while silent mode is on. Apple Intelligence keys are not changed.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sets only the two region keys to the United States (LL / LL/A), so the camera shutter stays silent while silent mode is on. Apple Intelligence keys are not changed."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "仅将两个地区键改为美国（LL / LL/A），静音模式下相机快门无声。不会更改 Apple 智能相关键。"
+          }
+        },
+        "zh-Hant-TW": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "僅將兩個地區鍵改為美國（LL / LL/A），靜音模式下相機快門無聲。不會更改 Apple 智慧相關鍵。"
+          }
+        },
+        "zh-Hant-HK": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "僅將兩個地區鍵改為美國（LL / LL/A），靜音模式下相機快門無聲。不會更改 Apple 智能相關鍵。"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "地域キー2つだけを米国（LL / LL/A）に変え、マナーモード中はカメラのシャッター音が鳴らないようにします。Apple Intelligence関連のキーは変更しません。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "두 개의 지역 키만 미국(LL / LL/A)으로 변경하여 무음 모드에서 카메라 셔터음이 나지 않게 합니다. Apple Intelligence 관련 키는 변경하지 않습니다."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cambia solo las dos claves de región a Estados Unidos (LL / LL/A) para que el obturador de la cámara no suene en modo silencio. No cambia las claves de Apple Intelligence."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Меняет только два ключа региона на США (LL / LL/A), чтобы затвор камеры не звучал в бесшумном режиме. Ключи Apple Intelligence не изменяются."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فقط دو کلید منطقه را به ایالات متحده (LL / LL/A) تغییر می‌دهد تا شاتر دوربین در حالت بی‌صدا ساکت بماند. کلیدهای Apple Intelligence تغییر نمی‌کنند."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chỉ đổi hai khóa khu vực thành Hoa Kỳ (LL / LL/A) để màn trập máy ảnh không phát ra tiếng ở chế độ im lặng. Không thay đổi các khóa Apple Intelligence."
+          }
+        }
+      }
     }
   },
   "version": "1.0"
