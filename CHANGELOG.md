@@ -2,6 +2,14 @@
 
 English | [简体中文](CHANGELOG_ZH-CN.md)
 
+## [1.1.1.1] - 2026-11-16
+
+Build `11140103`.
+
+### Added
+
+- Shutter Sound Off preset under Device → Presets: sets only the two region keys to the United States (LL / LL/A), so the camera shutter stays silent while silent mode is on. Apple Intelligence keys are not changed. Disable (Restore Original) or Revert brings back the recorded original region values.
+
 ## [1.1.1] - 2026-11-14
 
 Build `11140102`.
