@@ -50,7 +50,7 @@ struct Capability: Identifiable {
         case "pencil": "Restart the device, then reopen Settings. Pencil hardware support is still required."
         case "bootChime", "chargeLimit", "tapToWake", "cameraControl", "actionButton",
              "internal", "storage", "srd", "aodHighLuminance", "aodFlipbook", "aodFlipbookCount",
-             "pwm", "displayPort", "collisionSOS", "internalSettings":
+             "pwm", "displayPort", "collisionSOS", "internalSettings", "shutterSound":
             "A device restart may be required."
         default: "Respring first. Restart the device if the change does not appear."
         }
@@ -96,6 +96,7 @@ struct Capability: Identifiable {
         .init(id: "chargeLimit", category: .device, title: "Charge Limit", detail: "Show charging limit settings. Actual charging control depends on hardware.", keys: ["37NVydb//GP/GrhuTN+exg"]),
         .init(id: "tapToWake", category: .device, title: "Tap to Wake", detail: "Expose tap-to-wake on devices where it is hidden.", keys: ["yZf3GTRMGTuwSV/lD7Cagw"]),
         .init(id: "cameraControl", category: .device, title: "Camera Control", detail: "Show Camera Control settings. Does not add a physical button.", keys: ["CwvKxM2cEogD3p+HYgaW0Q", "oOV1jhJbdV3AddkcCg0AEA"]),
+        .init(id: "shutterSound", category: .device, title: "Shutter Sound Off", detail: "Sets only the two region keys to the United States (LL / LL/A), so the camera shutter stays silent while silent mode is on. Apple Intelligence keys are not changed.", keys: [GestaltKeys.regionCode, GestaltKeys.legacyRegionInfo], values: [GestaltKeys.regionCode: "LL", GestaltKeys.legacyRegionInfo: "LL/A"]),
         .init(id: "actionButton", category: .device, title: "Action Button", detail: "Show the Action Button settings page.", keys: ["cT44WE1EohiwRzhsZ8xEsw"]),
         .init(id: "collisionSOS", category: .device, title: "Collision SOS", detail: "Show collision detection in Emergency SOS settings. Hardware support is still required.", keys: ["HCzWusHQwZDea6nNhaKndw"]),
         .init(id: "audioMix", category: .device, title: "Audio Mix", detail: "Enable the audio mix capability for supported media.", keys: ["aVL5GE3tx0LSCI/ErfrJGA"]),
