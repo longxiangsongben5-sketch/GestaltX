@@ -532,7 +532,7 @@ struct CategoryView: View {
                             }
                         }
                     }.pickerStyle(.menu)
-                    if capability.requiresEnableConfirmation || capability.id == "siriOnDevice" || capability.id == "siriAIMode" {
+                    if capability.requiresEnableConfirmation || capability.id == "siriOnDevice" || capability.id == "siriAIMode" || capability.id == "shutterSound" {
                         Text(L(capability.detail)).font(.caption).foregroundStyle(.secondary)
                     }
                     HStack(alignment: .firstTextBaseline) {
