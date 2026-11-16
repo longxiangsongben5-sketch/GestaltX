@@ -262,6 +262,8 @@ Tap to Wake	轻点唤醒
 Expose tap-to-wake on devices where it is hidden.	在隐藏此功能的设备上显示轻点唤醒选项。
 Camera Control	相机控制
 Show Camera Control settings. Does not add a physical button.	显示相机控制设置，不会为设备增加实体按钮。
+Shutter Sound Off	关闭快门声
+Sets only the two region keys to the United States (LL / LL/A), so the camera shutter stays silent while silent mode is on. Apple Intelligence keys are not changed.	仅将两个地区键改为美国（LL / LL/A），静音模式下相机快门无声。不会更改 Apple 智能相关键。
 Action Button	操作按钮
 Show the Action Button settings page.	显示操作按钮设置页面。
 Apple Pencil	Apple Pencil
